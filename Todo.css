@@ -1,0 +1,56 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color:#f5e8ba;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    background-color:#121213;
+    padding: 10px 24px;
+    border-radius: 10px;
+    width: 280px;
+    height: 400px;
+    background-image: url('download.jpg');
+
+}
+h2{
+    text-align: center;
+    color:#0c0b0b;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-weight: 1000;
+    text-shadow:coral 2px 2px;
+}
+button{
+    background-color:coral;
+    font-size: 15px;
+    padding: 5px 5px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+input{
+    background-color:coral;
+    padding: 5px;
+}
+.wrapper button,input{
+    cursor: pointer;
+    border: none;
+}
+#todoList {
+    border: 2px solid coral;
+    color: coral;
+    width: 200px;
+    height: 250px;
+    overflow: scroll;
+    padding-left: 20px;
+    background-color:black;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
